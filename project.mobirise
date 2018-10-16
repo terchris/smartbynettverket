@@ -1,0 +1,913 @@
+{
+  "settings": {
+    "name": "Smartbynettverket",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "directm",
+      "title": "DirectM",
+      "styling": {
+        "primaryColor": "#5aac98",
+        "secondaryColor": "#A25DAE",
+        "successColor": "#1E7C3A",
+        "infoColor": "#74a3c7",
+        "warningColor": "#FFD785",
+        "dangerColor": "#FF9685",
+        "titleFont": "Oxygen",
+        "subtitleFont": "Libre Franklin",
+        "textFont": "Libre Franklin",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": []
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.8.6",
+    "siteFonts": [],
+    "uniqCompNum": 55,
+    "versionPublish": "4.8.6",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-toggler": {
+              "color": "#74a3c7"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#74a3c7"
+            },
+            ".link, .dropdown-item": {
+              "color": "#74a3c7",
+              "font-family": "'Libre Franklin', serif"
+            },
+            ".link": {
+              "font-size": "0.8125rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.880rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#74a3c7"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#fff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#74a3c7",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#5aac98!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#fff",
+            "fontSize": 0.8125,
+            "imageSize": 4,
+            "fontName": {
+              "name": "Libre Franklin",
+              "css": "'Libre Franklin', serif",
+              "link": "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i"
+            },
+            "fontColor": "#74a3c7",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features21-s\">Formål</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content7-n\">Hva vi gjør</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content7-9\">Hvem er medlemmene</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content7-9\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content7-9\">Bli med</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\"></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Smartbynettverket</a>",
+          "buttons": "<a class=\"btn btn-info\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type text\">Download now</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu2",
+          "_anchor": "menu2-11"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "margin-bottom": "1rem",
+              "color": "#fff"
+            },
+            ".mbr-iconfont": {},
+            ".mbr-table-cell": {
+              "vertical-align": "middle"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "contentAlign": "left",
+            "paddingTop": "7",
+            "paddingBottom": "7",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/content7.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#2d2d2d",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#2d2d2d",
+            "overlayOpacity": 0.5
+          },
+          "title": "Samhandling for utvikling av smarte byer",
+          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\">Watch Demo</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content7",
+          "_anchor": "content7-12"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showMeta": false,
+            "paddingTop": 3,
+            "paddingBottom": "0",
+            "bgColor": "#fff"
+          },
+          "title": "Vi har alle har rett til å være med å forme framtiden.",
+          "meta": "By <b>John Smith</b> posted July 20, 2016",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-q"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#ffffff"
+          },
+          "text": "Skal vi lykkes med å utvikle et samfunn som er smartere, mer bærekraftig og bedre å leve i, er vi helt avhengig av at vi samhandler på tvers av sektorer, bransjer og fag.&nbsp;<br><br>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-r",
+          "_styles": {
+            "P": {
+              "text-align": "center",
+              "font-size": "20px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgicon": true,
+            "showHeading": true,
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "contentAlign": "center",
+            "columns": 3,
+            "iconsBgColor": "#fffcf6",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "containerColor1": "#fffffd",
+            "containerColor2": "#fffefd",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#616161",
+            "overlayOpacity": 0.8
+          },
+          "bgicon": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "website-theme",
+              "link": "https://mobirise.com",
+              "family": "MobiriseIcons"
+            }
+          },
+          "title": "Formålet med nettverket",
+          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Download for Windows</a><a data-app-btn=\"true\" class=\"btn btn-lg btn-empty\" href=\"https://mobirise.com\">Or view demo</a>",
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "mobirise",
+              "link": "https://mobirise.com",
+              "color": "#222",
+              "family": "MobiriseIcons"
+            }
+          },
+          "title1": "Look to Norway",
+          "subtitle1": "Awesome",
+          "text1": "Være en akselerator som kan bidra til å gjøre Norske byer og tettsteder til flaggskip i utviklingen av digitale (smarte) og bærekraftige byer som er gode å leve i.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "responsive",
+              "link": "https://mobirise.com",
+              "color": "#222",
+              "family": "MobiriseIcons"
+            }
+          },
+          "title2": "Koble",
+          "subtitle2": "Awesome",
+          "text2": "Være en som kobler og bidrar til samhandling. &nbsp;Nettverket er et uformelt nettverk der alle aktører som er interessert i utvikling av smarte byer kan finne hverandre, møtes på nøytral grunn, diskutere, dele erfaringer og bistå hverandre. Vi skaper og tilrettelegger møteplasser for idémyldring og erfaringsutveksling.",
+          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "devices",
+              "link": "https://mobirise.com",
+              "color": "#222",
+              "family": "MobiriseIcons"
+            }
+          },
+          "title3": "Gi like muligheter",
+          "subtitle3": "Awesome",
+          "text3": "Åpen er noe man er - ikke noe man gjør. Gi lik tilgang, transparens, &nbsp;Det handler om å dele, å gi før man tar. Ingen arena for \"råsalg\"",
+          "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "touch-swipe",
+              "link": "https://mobirise.com",
+              "color": "#222",
+              "family": "MobiriseIcons"
+            }
+          },
+          "title4": "What is Mobirise",
+          "subtitle4": "Awesome",
+          "text4": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
+          "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features21",
+          "_anchor": "features21-s",
+          "_styles": {
+            ".card .mbr-iconfont": {
+              "background": "#fffcf6",
+              "border-color": "#fffcf6"
+            },
+            ".mbr-table-cell": {
+              "vertical-align": "middle"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "margin-bottom": "1rem",
+              "color": "#fff"
+            },
+            ".mbr-iconfont": {},
+            ".mbr-table-cell": {
+              "vertical-align": "middle"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "contentAlign": "left",
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/content7.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#2d2d2d",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#2d2d2d",
+            "overlayOpacity": 0.5
+          },
+          "title": "Hva gjør vi",
+          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\">Watch Demo</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content7",
+          "_anchor": "content7-n"
+        },
+        {
+          "_inherit": "features2",
+          "_styles": {
+            ".card": {
+              "background-color": "transparent",
+              "box-shadow": "none",
+              "border": "none"
+            },
+            ".card-img a": {
+              "border-width": "2px",
+              "line-height": "72px"
+            },
+            ".mbr-iconfont": {
+              "color": "#616161",
+              "border-color": "#616161"
+            }
+          },
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "showHeading": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "contentAlign": "center",
+            "columns": "4",
+            "showFeaturesImages": true,
+            "iconsBgColor": "#616161",
+            "showFeaturesTitles": true,
+            "showFeaturesTexts": true,
+            "showFeaturesButtons": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/features/features4.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fffffd",
+            "overlayOpacity": 0.8
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "title": "Always on your terms",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, sed iusto corrupti explicabo. Dignissimos, harum. Adipisci dolorem odit minima assumenda nostrum quam nihil, iusto, ad eligendi laudantium doloribus eius reiciendis.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "touch",
+              "link": "https://mobirise.com",
+              "size": 40,
+              "family": "MobiriseIcons"
+            }
+          },
+          "title1": "Fasiliterer&nbsp;",
+          "subtitle1": "Awesome",
+          "text1": "Møteplasser,&nbsp;",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "responsive",
+              "link": "https://mobirise.com",
+              "size": 40,
+              "family": "MobiriseIcons"
+            }
+          },
+          "title2": "Arbeidsgrupper",
+          "subtitle2": "Awesome",
+          "text2": "Standarder,&nbsp;",
+          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "setting",
+              "link": "https://mobirise.com",
+              "size": 40,
+              "family": "MobiriseIcons"
+            }
+          },
+          "title3": "Internasjonal",
+          "subtitle3": "Awesome",
+          "text3": "Utveksler ideer, kunnskap over landegrensene. &nbsp;Kobler byer over landegrensene. Gir norske bedrifter eksportmuligheter.",
+          "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "hot-cup",
+              "link": "https://mobirise.com",
+              "size": 40,
+              "family": "MobiriseIcons"
+            }
+          },
+          "title4": "Politikk",
+          "subtitle4": "Awesome",
+          "text4": "Påvirker politikere,",
+          "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "_name": "features4",
+          "_anchor": "features4-p"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "margin-bottom": "1rem",
+              "color": "#fff"
+            },
+            ".mbr-iconfont": {},
+            ".mbr-table-cell": {
+              "vertical-align": "middle"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "contentAlign": "left",
+            "paddingTop": 4,
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/content7.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#2d2d2d",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#2d2d2d",
+            "overlayOpacity": 0.5
+          },
+          "title": "Hvem er medlemmene",
+          "text": "Vi tror at alle må med når vi skal lage et smartere samfunn. Esklusive grupperinger med adgang kun for de med den ene eller andre måten å se verden på er ikke veien å gå. Vi mener alle har rett til å være med påvirke vår felles framtid.&nbsp;",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\">Watch Demo</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content7",
+          "_anchor": "content7-9"
+        },
+        {
+          "_inherit": "features2",
+          "_styles": {
+            ".card": {
+              "background-color": "transparent",
+              "box-shadow": "none",
+              "border": "none"
+            },
+            ".card-img a": {
+              "border-width": "2px",
+              "line-height": "72px"
+            },
+            ".mbr-iconfont": {
+              "color": "#616161",
+              "border-color": "#616161"
+            }
+          },
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "showHeading": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "contentAlign": "center",
+            "columns": "4",
+            "showFeaturesImages": true,
+            "iconsBgColor": "#616161",
+            "showFeaturesTitles": true,
+            "showFeaturesTexts": true,
+            "showFeaturesButtons": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/features/features4.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fffffd",
+            "overlayOpacity": 0.8
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "title": "De 160+ medlemmene i nettverket kommer fra",
+          "text": "Vi tror at alle må med når vi skal lage et smartere samfunn. Esklusive grupperinger med adgang kun for de med den ene eller andre måten å se verden på er ikke veien å gå. Vi mener alle har rett til å være med påvirke vår felles framtid.&nbsp;<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "social-location-city",
+              "family": "Material-Design-Icons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 40
+            }
+          },
+          "title1": "Kommuner",
+          "subtitle1": "Awesome",
+          "text1": "Med XX kommuner&nbsp;",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "rocket",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 40
+            }
+          },
+          "title2": "Startups",
+          "subtitle2": "Awesome",
+          "text2": "Vi tror",
+          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "communication-business",
+              "family": "Material-Design-Icons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 40
+            }
+          },
+          "title3": "Næringsliv",
+          "subtitle3": "Awesome",
+          "text3": "Løsninger",
+          "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "flask",
+              "family": "iconsMind",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 40
+            }
+          },
+          "title4": "Forskning",
+          "subtitle4": "Awesome",
+          "text4": "Kunnskap",
+          "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "_name": "features4",
+          "_anchor": "features4-3"
+        },
+        {
+          "_inherit": "features2",
+          "_styles": {
+            ".card": {
+              "background-color": "transparent",
+              "box-shadow": "none",
+              "border": "none"
+            },
+            ".card-img a": {
+              "border-width": "2px",
+              "line-height": "72px"
+            },
+            ".mbr-iconfont": {
+              "color": "#616161",
+              "border-color": "#616161"
+            }
+          },
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 2,
+            "showHeading": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "contentAlign": "center",
+            "columns": "4",
+            "showFeaturesImages": true,
+            "iconsBgColor": "#616161",
+            "showFeaturesTitles": true,
+            "showFeaturesTexts": true,
+            "showFeaturesButtons": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/features/features4.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fffffd",
+            "overlayOpacity": 0.8
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "title": "Always on your terms",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, sed iusto corrupti explicabo. Dignissimos, harum. Adipisci dolorem odit minima assumenda nostrum quam nihil, iusto, ad eligendi laudantium doloribus eius reiciendis.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "crosshairs",
+              "family": "FontAwesome",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 40
+            }
+          },
+          "title1": "Sivilsamfunn",
+          "subtitle1": "Awesome",
+          "text1": "Engasjemet",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "social-school",
+              "family": "Material-Design-Icons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 40
+            }
+          },
+          "title2": "Akademia",
+          "subtitle2": "Awesome",
+          "text2": "Utdanning",
+          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "setting",
+              "link": "https://mobirise.com",
+              "size": 40,
+              "family": "MobiriseIcons"
+            }
+          },
+          "title3": "Offentlig",
+          "subtitle3": "Awesome",
+          "text3": "offentlig",
+          "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "group-1",
+              "family": "icon54-v2",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 40
+            }
+          },
+          "title4": "Foreninger",
+          "subtitle4": "Awesome",
+          "text4": "organisasjoner, foreninger, sammensluttniger, interressegrupper",
+          "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "_name": "features4",
+          "_anchor": "features4-4"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": "17",
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff"
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/content7.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "1.300 Innbyggere",
+          "text": "Vi er alle innbyggere og selvfølgelig skal vi bli hørt selv om vi ikke engesjerer oss i kraft av arbeid eller interresseorganisasjon. Det er jo vi som skal bo i framtiden.&nbsp;<br>Vi driver Norges største nettverk med 1.300+ innbyggere som har interresse for smarte byer.",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content8",
+          "_anchor": "content8-l"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "margin-bottom": "1rem",
+              "color": "#fff"
+            },
+            ".mbr-iconfont": {},
+            ".mbr-table-cell": {
+              "vertical-align": "middle"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "contentAlign": "left",
+            "paddingTop": 4,
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/content7.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#2d2d2d",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#2d2d2d",
+            "overlayOpacity": 0.5
+          },
+          "title": "Alle er velkommen",
+          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\">Watch Demo</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content7",
+          "_anchor": "content7-t"
+        },
+        {
+          "_styles": {
+            ".plan-wrap.default .plan-title": {
+              "background": "#6ca4cf"
+            },
+            ".plan-wrap.favorite .plan-title": {
+              "background": "#62cab1"
+            },
+            ".heading-text": {
+              "font-size": "20px"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showSubtitle": true,
+            "firstType": "default",
+            "secondType": "favorite",
+            "thirdType": "default",
+            "fourthType": "hidden",
+            "defaultColor": "#6ca4cf",
+            "favoriteColor": "#62cab1",
+            "rows": "4",
+            "paddingTop": "1",
+            "paddingBottom": 3,
+            "showButtons": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Stiller du deg bak formålet til nettverket er du velkommen&nbsp;",
+          "subtitle": "Det viktigeste er at du er med å forme framtiden. Det koster ikke mer enn en kopp kaffe å være medlem.&nbsp;",
+          "title1": "Medlem",
+          "title2": "Business",
+          "title3": "Premium",
+          "title4": "Ultimate",
+          "currency": "Kr",
+          "text111": "<span class=\"price\">31</span>",
+          "text112": "<br>per mnd",
+          "text12": "Invitasjon til nettverks aktiviteter",
+          "text13": "Oppføring i Smartbykatalogen",
+          "text14": "15 GB bandwidth",
+          "text15": "Mobirise is perfect for non-techies who are not familiar with web development.",
+          "text16": "Nesciunt! ipsum dolor.",
+          "text17": "Loipsa. consectetur.",
+          "text18": "Lorensectetur, omnis.",
+          "text19": "Lorem ipsa, nobis.",
+          "text211": "<span class=\"price\">1.000</span>",
+          "text212": "<br>per måned",
+          "text22": "Invitasjon til nettverks aktiviteter",
+          "text23": "10 Users",
+          "text24": "15 GB bandwidth",
+          "text25": "Mobirise is perfect for non-techies who are not familiar with web development.",
+          "text26": "Nesciunt! ipsum dolor.",
+          "text27": "Loipsa. consectetur.",
+          "text28": "Lorensectetur, omnis.",
+          "text29": "Lorem ipsa, nobis.",
+          "text311": "<span class=\"price\">6.000</span>",
+          "text312": "<br>per måned",
+          "text32": "Invitasjon til nettverks aktiviteter",
+          "text33": "Unlimited Users",
+          "text34": "15 GB bandwidth",
+          "text35": "Mobirise is perfect for non-techies who are not familiar with web development.",
+          "text36": "Nesciunt! ipsum dolor.",
+          "text37": "Loipsa. consectetur.",
+          "text38": "Lorensectetur, omnis.",
+          "text39": "Lorem ipsa, nobis.",
+          "text411": "<span class=\"price\">49</span>",
+          "text412": "<br>per Month",
+          "text42": "8GB Storage",
+          "text43": "4 Users",
+          "text44": "15 GB bandwidth",
+          "text45": "Mobirise is perfect for non-techies who are not familiar with web development.",
+          "text46": "Nesciunt! ipsum dolor.",
+          "text47": "Loipsa. consectetur.",
+          "text48": "Lorensectetur, omnis.",
+          "text49": "Lorem ipsa, nobis.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-primary-outline\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">Innmelding</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-black-outline\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">Innmelding</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-warning-outline\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">Innmelding</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-danger-outline\">Buy now!</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "pricing-table2",
+          "_anchor": "pricing-table2-y"
+        }
+      ]
+    }
+  }
+}
