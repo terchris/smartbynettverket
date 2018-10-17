@@ -682,12 +682,99 @@ a:hover {
 #content7-t .mbr-table-cell {
   vertical-align: middle;
 }
-#pricing-table2-y .plan-wrap.default .plan-title {
-  background: #6ca4cf;
+#content3-1o .mbr-section-title,
+#content3-1o .mbr-section-subtitle {
+  text-align: center;
 }
-#pricing-table2-y .plan-wrap.favorite .plan-title {
-  background: #62cab1;
+#menu2-1j .hide-buttons .nav-btn {
+  display: none !important;
 }
-#pricing-table2-y .heading-text {
-  font-size: 20px;
+#menu2-1j .navbar-toggler {
+  color: #74a3c7;
+}
+#menu2-1j .close-icon::before,
+#menu2-1j .close-icon::after {
+  background-color: #74a3c7;
+}
+#menu2-1j .link,
+#menu2-1j .dropdown-item {
+  color: #74a3c7;
+  font-family: 'Libre Franklin', serif;
+}
+#menu2-1j .link {
+  font-size: 0.8125rem;
+}
+#menu2-1j .dropdown-item,
+#menu2-1j .nav-dropdown-sm .link {
+  font-size: 0.880rem;
+}
+#menu2-1j .link:hover,
+#menu2-1j .link:focus {
+  color: #5aac98;
+}
+#menu2-1j .dropdown-item:hover::before,
+#menu2-1j .dropdown-item:focus::before {
+  background: #5aac98;
+}
+#menu2-1j .dropdown-item:hover,
+#menu2-1j .dropdown-item:focus {
+  color: #74a3c7;
+}
+#menu2-1j .link[aria-expanded="true"],
+#menu2-1j .dropdown-menu {
+  background: #ffffff;
+}
+#menu2-1j .nav-dropdown-sm .link:focus,
+#menu2-1j .nav-dropdown-sm .link:hover,
+#menu2-1j .nav-dropdown-sm .dropdown-item:focus,
+#menu2-1j .nav-dropdown-sm .dropdown-item:hover {
+  background: #f7f7f7!important;
+}
+#menu2-1j .navbar,
+#menu2-1j .nav-dropdown-sm,
+#menu2-1j .nav-dropdown-sm .link[aria-expanded="true"],
+#menu2-1j .nav-dropdown-sm .dropdown-menu {
+  background: #fff;
+}
+#menu2-1j .bg-color.transparent .link {
+  color: #74a3c7;
+  transition: none;
+}
+#menu2-1j .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#menu2-1j .bg-color.transparent.opened .link:hover,
+#menu2-1j .bg-color.transparent.opened .link:focus {
+  color: #5aac98;
+}
+#menu2-1j .link[aria-expanded="true"],
+#menu2-1j .dropdown-item[aria-expanded="true"] {
+  color: #5aac98!important;
+}
+#features3-1k .mbr-iconfont {
+  background: #5aac98;
+  border-color: #5aac98;
+}
+#features3-1k .features {
+  background: #f6f7f8;
+}
+#form1-1l .form {
+  background: #fafbfc;
+}
+#form2-1m .heading {
+  background: #5aac98;
+}
+#form3-1n .card {
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+}
+#form3-1n .card-img a {
+  color: #616161;
+  border-color: #616161;
+  border-width: 2px;
+  line-height: 72px;
+}
+#form3-1n .heading {
+  background: #447eaa;
 }
