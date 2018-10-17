@@ -652,3 +652,15 @@ a:hover {
 #features21-1i .mbr-table-cell {
   vertical-align: middle;
 }
+#content7-1k .mbr-section-title,
+#content7-1k .mbr-section-subtitle {
+  margin-bottom: 1rem;
+  color: #fff;
+}
+#content7-1k .mbr-iconfont {
+  color: undefined;
+  border-color: undefined;
+}
+#content7-1k .mbr-table-cell {
+  vertical-align: middle;
+}
