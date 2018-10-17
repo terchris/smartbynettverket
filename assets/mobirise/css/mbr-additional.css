@@ -515,71 +515,6 @@ a:hover {
 .hamburger-icon:after {
   background-color: #5aac98;
 }
-#menu2-11 .hide-buttons .nav-btn {
-  display: none !important;
-}
-#menu2-11 .navbar-toggler {
-  color: #74a3c7;
-}
-#menu2-11 .close-icon::before,
-#menu2-11 .close-icon::after {
-  background-color: #74a3c7;
-}
-#menu2-11 .link,
-#menu2-11 .dropdown-item {
-  color: #74a3c7;
-  font-family: 'Libre Franklin', serif;
-}
-#menu2-11 .link {
-  font-size: 0.8125rem;
-}
-#menu2-11 .dropdown-item,
-#menu2-11 .nav-dropdown-sm .link {
-  font-size: 0.880rem;
-}
-#menu2-11 .link:hover,
-#menu2-11 .link:focus {
-  color: #5aac98;
-}
-#menu2-11 .dropdown-item:hover::before,
-#menu2-11 .dropdown-item:focus::before {
-  background: #5aac98;
-}
-#menu2-11 .dropdown-item:hover,
-#menu2-11 .dropdown-item:focus {
-  color: #74a3c7;
-}
-#menu2-11 .link[aria-expanded="true"],
-#menu2-11 .dropdown-menu {
-  background: #ffffff;
-}
-#menu2-11 .nav-dropdown-sm .link:focus,
-#menu2-11 .nav-dropdown-sm .link:hover,
-#menu2-11 .nav-dropdown-sm .dropdown-item:focus,
-#menu2-11 .nav-dropdown-sm .dropdown-item:hover {
-  background: #f7f7f7!important;
-}
-#menu2-11 .navbar,
-#menu2-11 .nav-dropdown-sm,
-#menu2-11 .nav-dropdown-sm .link[aria-expanded="true"],
-#menu2-11 .nav-dropdown-sm .dropdown-menu {
-  background: #fff;
-}
-#menu2-11 .bg-color.transparent .link {
-  color: #74a3c7;
-  transition: none;
-}
-#menu2-11 .bg-color.transparent.opened .link {
-  transition: color 0.2s ease-in-out;
-}
-#menu2-11 .bg-color.transparent.opened .link:hover,
-#menu2-11 .bg-color.transparent.opened .link:focus {
-  color: #5aac98;
-}
-#menu2-11 .link[aria-expanded="true"],
-#menu2-11 .dropdown-item[aria-expanded="true"] {
-  color: #5aac98!important;
-}
 #content7-12 .mbr-section-title,
 #content7-12 .mbr-section-subtitle {
   margin-bottom: 1rem;
@@ -709,4 +644,11 @@ a:hover {
 #content3-1o .mbr-section-title,
 #content3-1o .mbr-section-subtitle {
   text-align: center;
+}
+#features21-1i .card .mbr-iconfont {
+  background: #fffcf6;
+  border-color: #fffcf6;
+}
+#features21-1i .mbr-table-cell {
+  vertical-align: middle;
 }

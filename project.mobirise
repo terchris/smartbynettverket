@@ -24,7 +24,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.6",
     "siteFonts": [],
-    "uniqCompNum": 67,
+    "uniqCompNum": 55,
     "versionPublish": "4.8.6",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -45,100 +45,6 @@
         "html_before": ""
       },
       "components": [
-        {
-          "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-toggler": {
-              "color": "#74a3c7"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#74a3c7"
-            },
-            ".link, .dropdown-item": {
-              "color": "#74a3c7",
-              "font-family": "'Libre Franklin', serif"
-            },
-            ".link": {
-              "font-size": "0.8125rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.880rem"
-            },
-            ".link:hover, .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
-              "background": "@primaryColor"
-            },
-            ".dropdown-item:hover, .dropdown-item:focus": {
-              "color": "#74a3c7"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#ffffff"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#f7f7f7!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#fff"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#74a3c7",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#5aac98!important"
-            }
-          },
-          "_params": {
-            "logo": false,
-            "showBrand": true,
-            "hideButtons": true,
-            "sticky": true,
-            "collapsed": true,
-            "transparent": false,
-            "bgColor": "#fff",
-            "fontSize": 0.8125,
-            "imageSize": 4,
-            "fontName": {
-              "name": "Libre Franklin",
-              "css": "'Libre Franklin', serif",
-              "link": "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i"
-            },
-            "fontColor": "#74a3c7",
-            "fontHoverColor": "@primaryColor"
-          },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features21-s\">Formål</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content7-n\">Hva vi gjør</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content7-9\">Hvem er medlemmene</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content7-9\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content7-9\">Bli med</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content7-9\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo.png",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Smartbynettverket</a>",
-          "buttons": "<a class=\"btn btn-info\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type text\">Download now</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "menu2",
-          "_anchor": "menu2-11"
-        },
         {
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
@@ -205,7 +111,7 @@
             "paddingBottom": 1,
             "bgColor": "#ffffff"
           },
-          "text": "Skal vi lykkes med å utvikle et samfunn som er smartere, mer bærekraftig og bedre å leve i, er vi helt avhengig av at vi samhandler på tvers av sektorer, bransjer og fag.&nbsp;<br><br>",
+          "text": "Skal vi lykkes med å utvikle et samfunn som er smartere, mer bærekraftig og bedre å leve i, er vi helt avhengig av at vi samhandler på tvers av sektorer, bransjer og fag.&nbsp;<br><br>Bærekraftsmålene, omstillingen fra olje, fortettingen til byene, kravet om et transparent og åpent samfunn er nøkkelord. Innbyggere i by og land går med en datamaskin i lomma og forventer at det skal være like lett å bruke kommunale tjenester som å handle på nettet.<br><br>",
           "_tags": [
             "Theme"
           ],
@@ -265,17 +171,17 @@
             "theme": "block",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/0kommuneutfordring-1600x900.jpg",
+                "image": "@PROJECT_PATH@/assets/images/0kommuneutfordring-1600x1200.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/0kommuneutfordring-960x540.jpg",
                 "tooltip": "@PROJECT_PATH@/assets/images/0kommuneutfordring-85x48.png",
                 "title": "Utfordringer og muligheter",
                 "text": "med nye utfordringer oppstår nye muligheter",
-                "active": true
+                "active": false
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/1-kommuneutfordring-1-1600x900.jpg",
+                "image": "@PROJECT_PATH@/assets/images/1-kommuneutfordring-1600x1200.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/1-kommuneutfordring-960x540.jpg",
@@ -285,17 +191,17 @@
                 "active": false
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/2kommuneutfordring-1-1600x900.jpg",
+                "image": "@PROJECT_PATH@/assets/images/2kommuneutfordring-1600x1200.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/2kommuneutfordring-960x540.jpg",
                 "tooltip": "@PROJECT_PATH@/assets/images/2kommuneutfordring-85x48.png",
                 "title": "Velferdssamfunnet",
-                "text": "Vi har hatt penger til å bære tjenestene. I framtiden vil vi ikke ha penger",
-                "active": false
+                "text": "Vi kan ikke bære kostnadene i framtiden",
+                "active": true
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/3kommuneutfordring-1-1600x900.jpg",
+                "image": "@PROJECT_PATH@/assets/images/3kommuneutfordring-1600x1200.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/3kommuneutfordring-960x540.jpg",
@@ -305,7 +211,7 @@
                 "active": false
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/4kommuneutfordring-1600x900.jpg",
+                "image": "@PROJECT_PATH@/assets/images/4kommuneutfordring-1-1600x1200.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/4kommuneutfordring-960x540.jpg",
@@ -315,7 +221,7 @@
                 "active": false
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/5kommuneutfordring-1600x900.jpg",
+                "image": "@PROJECT_PATH@/assets/images/5kommuneutfordring-1600x1200.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/5kommuneutfordring-960x540.jpg",
@@ -325,7 +231,7 @@
                 "active": false
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/6kommuneutfordring-1600x900.jpg",
+                "image": "@PROJECT_PATH@/assets/images/6kommuneutfordring-1600x1200.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/6kommuneutfordring-960x540.jpg",
@@ -349,9 +255,9 @@
             "customSize": false,
             "customWidth": "1600",
             "customHeight": "1080",
-            "size": "1024x576",
+            "size": "1024x768",
             "width": "1024",
-            "height": "576"
+            "height": "768"
           },
           "articleLayout": false,
           "alias": "wowslider",
@@ -451,7 +357,7 @@
           },
           "title1": "Look to Norway",
           "subtitle1": "Awesome",
-          "text1": "Være en akselerator som kan bidra til å gjøre Norske byer og tettsteder til flaggskip i utviklingen av digitale (smarte) og bærekraftige byer som er gode å leve i.",
+          "text1": "Være en akselerator som kan bidra til å gjøre Norske byer og tettsteder til flaggskip i utviklingen av digitale (smarte) og bærekraftige byer som er gode å leve i. Bidra til at det utvikles smartbyløsninger i verdensklasse - starten på en ny industri.",
           "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media2": {
             "iconFont": {
@@ -477,7 +383,7 @@
               "family": "MobiriseIcons"
             }
           },
-          "title3": "Gi like muligheter",
+          "title3": "Samhandle og dele",
           "subtitle3": "Awesome",
           "text3": "Åpen er noe man er - ikke noe man gjør. Gi lik tilgang, transparens, &nbsp;Det handler om å dele, å gi før man tar. Ingen arena for \"råsalg\"",
           "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
@@ -746,7 +652,7 @@
           "_tags": [
             "Theme"
           ],
-          "title": "De 160+ medlemmene i nettverket kommer fra",
+          "title": "De 160+ virksomhetene i nettverket kommer fra",
           "text": "Vi tror at alle må med når vi skal lage et smartere samfunn. Esklusive grupperinger med adgang kun for de med den ene eller andre måten å se verden på er ikke veien å gå. Vi mener alle har rett til å være med påvirke vår felles framtid.&nbsp;<br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
           "media1": {
@@ -762,7 +668,7 @@
           },
           "title1": "Kommuner",
           "subtitle1": "Awesome",
-          "text1": "Med XX kommuner&nbsp;",
+          "text1": "",
           "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media2": {
             "iconFont": {
@@ -777,7 +683,7 @@
           },
           "title2": "Startups",
           "subtitle2": "Awesome",
-          "text2": "Vi tror",
+          "text2": "",
           "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media3": {
             "iconFont": {
@@ -792,7 +698,7 @@
           },
           "title3": "Næringsliv",
           "subtitle3": "Awesome",
-          "text3": "Løsninger",
+          "text3": "",
           "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media4": {
             "iconFont": {
@@ -807,7 +713,7 @@
           },
           "title4": "Forskning",
           "subtitle4": "Awesome",
-          "text4": "Kunnskap",
+          "text4": "",
           "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "_name": "features4",
           "_anchor": "features4-3"
@@ -875,7 +781,7 @@
           },
           "title1": "Sivilsamfunn",
           "subtitle1": "Awesome",
-          "text1": "Engasjemet",
+          "text1": "",
           "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media2": {
             "iconFont": {
@@ -890,7 +796,7 @@
           },
           "title2": "Akademia",
           "subtitle2": "Awesome",
-          "text2": "Utdanning",
+          "text2": "",
           "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media3": {
             "iconFont": {
@@ -904,7 +810,7 @@
           },
           "title3": "Offentlig",
           "subtitle3": "Awesome",
-          "text3": "offentlig",
+          "text3": "",
           "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media4": {
             "iconFont": {
@@ -952,7 +858,7 @@
               "loop": false
             }
           },
-          "title": "1.300 Innbyggere",
+          "title": "1.300 Smartbyentusiaster",
           "text": "Vi er alle innbyggere og selvfølgelig skal vi bli hørt selv om vi ikke engesjerer oss i kraft av arbeid eller interresseorganisasjon. Det er jo vi som skal bo i framtiden.&nbsp;<br>Vi driver Norges største nettverk med 1.300+ innbyggere som har interresse for smarte byer.",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "_tags": [
@@ -1020,6 +926,115 @@
           ],
           "_name": "content3",
           "_anchor": "content3-1o"
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgicon": true,
+            "showHeading": true,
+            "showTitle": false,
+            "showText": true,
+            "showButtons": false,
+            "contentAlign": "center",
+            "columns": "4",
+            "iconsBgColor": "#fffcf6",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "containerColor1": "#fffffd",
+            "containerColor2": "#fffefd",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#616161",
+            "overlayOpacity": 0.8
+          },
+          "bgicon": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "website-theme",
+              "link": "https://mobirise.com",
+              "family": "MobiriseIcons"
+            }
+          },
+          "title": "Formålet med nettverket",
+          "text": "Alle typer aktører ønskes velkommen som medlemmer i nettverket; for eksempel byer og kommuner, departementer og etater, store og små selskaper, organisasjoner og utdanningsinstitusjoner og organisasjoner. Fellesnevneren for alle medlemmer er at de har interesse for og/eller aktiviteter som kan defineres innenfor området smarte byer.<br><br>Som medlem har du adgang til:",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Download for Windows</a><a data-app-btn=\"true\" class=\"btn btn-lg btn-empty\" href=\"https://mobirise.com\">Or view demo</a>",
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "mobirise",
+              "link": "https://mobirise.com",
+              "color": "#222",
+              "family": "MobiriseIcons"
+            }
+          },
+          "title1": "Smartbykatalogen",
+          "subtitle1": "Awesome",
+          "text1": "Oppføring i Smartbykatalogen for alle medlemmene. Her kan du finne hvem som gjør hva innen smartby.&nbsp;",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "responsive",
+              "link": "https://mobirise.com",
+              "color": "#222",
+              "family": "MobiriseIcons"
+            }
+          },
+          "title2": "Nettverket",
+          "subtitle2": "Awesome",
+          "text2": "Nettverket er et uformelt nettverk der alle aktører som er interessert i utvikling av smarte byer kan finne hverandre, møtes på nøytral grunn, diskutere, dele erfaringer og bistå hverandre.&nbsp;",
+          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "devices",
+              "link": "https://mobirise.com",
+              "color": "#222",
+              "family": "MobiriseIcons"
+            }
+          },
+          "title3": "Invitasjoner, nyheter og tips",
+          "subtitle3": "Awesome",
+          "text3": "Invitasjon til konferanser, seinarer, messer og diskusjoner. Noen ganger arrangert av oss andre ganger av andre som inviterer nettverket. Som oftest med en fordel forhandlet fram for medlemmer av nettverket.",
+          "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "touch-swipe",
+              "link": "https://mobirise.com",
+              "color": "#222",
+              "family": "MobiriseIcons"
+            }
+          },
+          "title4": "Arbeidsgrupper",
+          "subtitle4": "Awesome",
+          "text4": "Det er mye som skal spille samen i en smart by. For at ting skal spille sammen må noen ta jobben med å beskrive hvordan. Vi vil at en løsning laget fo en by skal fungere i en annen by. Arbedisgruppene forbereder og medlemmene i nettverket spiller inn behov.",
+          "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features21",
+          "_styles": {
+            ".card .mbr-iconfont": {
+              "background": "#fffcf6",
+              "border-color": "#fffcf6"
+            },
+            ".mbr-table-cell": {
+              "vertical-align": "middle"
+            }
+          },
+          "_anchor": "features21-1i"
         }
       ]
     }
